@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceAritmetica", "WcfServiceAritmetica\WcfServiceAritmetica.csproj", "{2EACE257-8E57-4F23-9749-81E6DE700497}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAritmetica", "UnitTestAritmetica\UnitTestAritmetica.csproj", "{EF498A7C-4894-455E-8500-0CC162846D35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2EACE257-8E57-4F23-9749-81E6DE700497} = {2EACE257-8E57-4F23-9749-81E6DE700497}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{2EACE257-8E57-4F23-9749-81E6DE700497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EACE257-8E57-4F23-9749-81E6DE700497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EACE257-8E57-4F23-9749-81E6DE700497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF498A7C-4894-455E-8500-0CC162846D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF498A7C-4894-455E-8500-0CC162846D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF498A7C-4894-455E-8500-0CC162846D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF498A7C-4894-455E-8500-0CC162846D35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

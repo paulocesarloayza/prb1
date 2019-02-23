@@ -33,7 +33,10 @@ namespace WcfServiceAritmetica
     [DataContract]
     public class BaseRespuesta
     {
+        [DataMember]
         public string Mensaje { get; set; }
+
+        [DataMember]
         public string Error { get; set; }
 
     }
