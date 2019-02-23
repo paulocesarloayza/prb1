@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceAritmetica", "WcfServiceAritmetica\WcfServiceAritmetica.csproj", "{2EACE257-8E57-4F23-9749-81E6DE700497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EACE257-8E57-4F23-9749-81E6DE700497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EACE257-8E57-4F23-9749-81E6DE700497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EACE257-8E57-4F23-9749-81E6DE700497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EACE257-8E57-4F23-9749-81E6DE700497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E26378FC-88E9-4528-AEEB-41E3B325872B}
+	EndGlobalSection
+EndGlobal
